@@ -8,6 +8,8 @@ body {
   margin: 0 auto;
   padding-top: 20px;
   max-height: 100vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 }
 
 button[type="submit"] {
@@ -98,7 +100,7 @@ textarea {
   width: 400px;
 }
 
-.justify-info {
+.comments {
  color: #522A65 !important;
 font-size: 1.2em;
 padding-top: 10px;
@@ -107,16 +109,6 @@ width: auto;
 font-family: Proza Libre, sans-serif;
 text-align: left;
 font-style: italic;
-}
-
-h1,
-.thoughts,
-.note,
-.fictional-character,
-.characters,
-.extra-info,
-.justify-info {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 span {
